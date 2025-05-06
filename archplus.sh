@@ -27,6 +27,7 @@ packages=(
   hyprpaper
   hyprsunset
   libreoffice-fresh
+  lutris
   ly
   mako
   mpv
