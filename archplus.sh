@@ -50,6 +50,7 @@ packages=(
   wine-mono
   wofi
   xdg-desktop-portal-hyprland
+  yazi
   alarm-clock-applet
   chromium-snapshot-bin
   github-desktop-bin
