@@ -1,0 +1,89 @@
+#!/bin/bash
+
+mv -f {.,}* ~
+
+cd
+
+git clone https://aur.archlinux.org/paru.git
+
+cd paru
+
+makepkg -si
+
+cd
+
+packages=(
+  blender
+  btop
+  eog
+  foot
+  galculator
+  gimp
+  gnome-keyring
+  gnome-themes-extra
+  gtk-engine-murrine
+  hyprland
+  hyprlock
+  hyprpaper
+  hyprsunset
+  libreoffice-fresh
+  ly
+  mako
+  mpv
+  neofetch
+  nwg-look
+  obs-studio
+  pavucontrol
+  pcmanfm-gtk3
+  pipewire-pulse
+  prismlauncher
+  qbittorrent
+  rnote
+  signal-desktop
+  starship
+  ttf-cascadia-code-nerd
+  ttf-font-awesome
+  ufw
+  waybar
+  wev
+  wine-gecko
+  wine-mono
+  wofi
+  xdg-desktop-portal-hyprland
+  alarm-clock-applet
+  chromium-snapshot-bin
+  github-desktop-bin
+  gruvbox-dark-icons-gtk
+  hyprshot
+  librewolf-bin
+  theclicker
+  vesktop-bin
+)
+
+for package in ${packages[@]}; do
+  paru -S --noconfirm ${package}
+done
+
+paru -S steam
+
+paru -S amd-ucode
+
+paru -S nvidia
+
+paru -S nvidia-settings
+
+paru -S ollama-cuda
+
+xdg-settings set default-web-browser librewolf.desktop
+
+cd graphite-gtk-theme
+
+./install.sh --tweaks rimless black
+
+cd
+
+gsettings set org.gnome.desktop.interface gtk-theme 'Graphite-Dark'
+
+sudo systemctl enable ly
+
+echo finished, reboot your computer
