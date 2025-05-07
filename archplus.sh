@@ -88,12 +88,18 @@ cd
 
 gsettings set org.gnome.desktop.interface gtk-theme 'Graphite-Dark'
 
+gsettings set org.gnome.desktop.interface icon-theme 'gruvbox-dark-icons-gtk'
+
 sudo systemctl enable ly
 
 sudo rm -r .git
+
 rm -r graphite-gtk-theme
+
 rm LICENSE
+
 rm README.md
+
 rm archplus.sh
 
 echo finished, reboot your computer
