@@ -14,6 +14,8 @@ makepkg -si
 
 cd
 
+paru
+
 packages=(
   blender
   btop
