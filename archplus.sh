@@ -4,6 +4,8 @@ mv -f {.,}* ~
 
 cd
 
+sudo mv pacman.conf /etc
+
 git clone https://aur.archlinux.org/paru.git
 
 cd paru
@@ -87,5 +89,11 @@ cd
 gsettings set org.gnome.desktop.interface gtk-theme 'Graphite-Dark'
 
 sudo systemctl enable ly
+
+sudo rm -r .git
+rm -r graphite-gtk-theme
+rm LICENSE
+rm README.md
+rm archplus.sh
 
 echo finished, reboot your computer
