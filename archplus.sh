@@ -21,6 +21,7 @@ packages=(
   blender
   btop
   eog
+  fastfetch
   foot
   galculator
   gimp
