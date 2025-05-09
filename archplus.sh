@@ -17,6 +17,7 @@ cd
 paru
 
 packages=(
+  discord
   blender
   btop
   eog
@@ -31,7 +32,6 @@ packages=(
   hyprpaper
   hyprsunset
   libreoffice-fresh
-  lutris
   ly
   mako
   mpv
@@ -63,7 +63,6 @@ packages=(
   hyprshot
   librewolf-bin
   theclicker
-  vesktop-bin
 )
 
 for package in ${packages[@]}; do
