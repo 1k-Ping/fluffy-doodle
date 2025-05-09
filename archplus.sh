@@ -58,6 +58,7 @@ packages=(
   xdg-desktop-portal-hyprland
   yazi
   alarm-clock-applet
+  bibata-cursor-theme-bin
   chromium-snapshot-bin
   github-desktop-bin
   gruvbox-dark-icons-gtk
