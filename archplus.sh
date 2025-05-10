@@ -38,7 +38,6 @@ packages=(
   ly
   mako
   mpv
-  neofetch
   nwg-look
   obs-studio
   pavucontrol
