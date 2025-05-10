@@ -106,6 +106,6 @@ rm LICENSE
 
 rm README.md
 
-rm archplus.sh
+rm foo.sh
 
 echo finished, reboot your computer
