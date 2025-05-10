@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd ~/foosh
+
 mv -f {.,}* ~
 
 cd
