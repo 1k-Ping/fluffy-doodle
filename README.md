@@ -17,5 +17,5 @@ git clone https://github.com/1kping/foosh ~/
 To run the script:
 
 ```sh
-~/foosh/./foosh.sh
+~/foosh/./foo.sh
 ```
