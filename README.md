@@ -1,15 +1,21 @@
 # foosh
-installs all my preferred packages and configurations
+Installs all my preferred packages and configurations.
 
-## installation
-do not run the script as sudo/root! only use sudo when the script itself prompts you to.
+### pre-installation
+Do not run the script as sudo/root! Only use sudo when the script itself prompts you to.
 
-this script is intended for use on a fresh install of arch linux. before running the script, make sure the directories ~/.config and ~/Pictures don't exist
+This script is intended for use on a fresh installation of Arch Linux. Before running the script, make sure that the directories ~/.config and ~/Pictures don't exist.
 
-to download, run:
+### installation
 
+To download:
+
+```sh
 git clone https://github.com/1kping/foosh ~/
+```
 
-to run the script:
+To run the script:
 
+```sh
 ~/foosh/./foosh.sh
+```
