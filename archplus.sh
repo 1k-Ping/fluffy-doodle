@@ -99,6 +99,8 @@ sudo rm -r .git
 
 rm -r graphite-gtk-theme
 
+rm -r foosh
+
 rm LICENSE
 
 rm README.md
