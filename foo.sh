@@ -25,7 +25,9 @@ packages=(
   opendoas
   blender
   btop
+  debugedit
   eog
+  fakeroot
   fastfetch
   foot
   galculator
