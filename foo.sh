@@ -99,6 +99,10 @@ gsettings set org.gnome.desktop.interface icon-theme 'gruvbox-dark-icons-gtk'
 
 sudo systemctl enable ly
 
+sudo ln -s /usr/bin/doas /usr/bin/sudo
+
+paru -Rnsc sudo --noconfirm
+
 rm -r .git
 
 rm -r graphite-gtk-theme
