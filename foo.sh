@@ -21,13 +21,13 @@ cd
 paru
 
 packages=(
+  devtools
   discord
   opendoas
   blender
   btop
   debugedit
   eog
-  fakeroot
   fastfetch
   foot
   galculator
