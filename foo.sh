@@ -8,6 +8,8 @@ cd
 
 sudo mv pacman.conf /etc
 
+sudo mv doas.conf /etc
+
 git clone https://aur.archlinux.org/paru.git
 
 cd paru
@@ -20,6 +22,7 @@ paru
 
 packages=(
   discord
+  opendoas
   blender
   btop
   eog
@@ -96,7 +99,7 @@ gsettings set org.gnome.desktop.interface icon-theme 'gruvbox-dark-icons-gtk'
 
 sudo systemctl enable ly
 
-sudo rm -r .git
+rm -r .git
 
 rm -r graphite-gtk-theme
 
