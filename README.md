@@ -1,4 +1,4 @@
-# foosh [bash version]
+# foosh  [bash version]
 Installs all my preferred packages and configurations.
 
 ## pre-installation
