@@ -10,6 +10,10 @@ sudo mv pacman.conf /etc
 
 sudo mv doas.conf /etc
 
+doas ln -s /usr/bin/doas /usr/bin/sudo
+
+doas pacman -Rnsc sudo --noconfirm
+
 git clone https://aur.archlinux.org/paru.git
 
 cd paru
@@ -99,11 +103,7 @@ gsettings set org.gnome.desktop.interface gtk-theme 'Graphite-Dark'
 
 gsettings set org.gnome.desktop.interface icon-theme 'gruvbox-dark-icons-gtk'
 
-sudo systemctl enable ly
-
-sudo ln -s /usr/bin/doas /usr/bin/sudo
-
-paru -Rnsc sudo --noconfirm
+doas systemctl enable ly
 
 rm -r .git
 
