@@ -10,6 +10,8 @@ sudo mv pacman.conf /etc
 
 sudo mv doas.conf /etc
 
+sudo chown root:root /etc/doas.conf
+
 doas ln -s /usr/bin/doas /usr/bin/sudo
 
 doas pacman -Rnsc sudo --noconfirm
