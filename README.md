@@ -1,6 +1,4 @@
 # foosh  [bash version]
-
-
 ## pre-installation
 Do not run the script as sudo/root! Only use sudo when the script itself prompts you to.
 
