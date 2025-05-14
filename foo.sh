@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/foosh
+cd ~/foosh-bash
 
 mv -f {.,}* ~
 
