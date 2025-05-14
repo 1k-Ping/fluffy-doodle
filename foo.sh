@@ -105,11 +105,11 @@ gsettings set org.gnome.desktop.interface icon-theme 'gruvbox-dark-icons-gtk'
 
 doas systemctl enable ly
 
-rm -r .git
+rm -rf .git
 
 rm -r graphite-gtk-theme
 
-rm -r foosh
+rm -r foosh-bash
 
 rm LICENSE
 
