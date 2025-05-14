@@ -9,9 +9,9 @@ This script is intended for use on a fresh installation of Arch Linux. Before ru
 ## installation
 To download:
 ```sh
-git clone https://github.com/1kping/foosh ~/
+git clone https://github.com/1kping/foosh-bash ~/
 ```
 To run the script:
 ```sh
-~/foosh/./foo.sh
+~/foosh-bash/./foo.sh
 ```
