@@ -8,6 +8,8 @@ cd
 
 sudo mv pacman.conf /etc
 
+sudo pacman -Syu
+
 git clone https://aur.archlinux.org/paru.git
 
 cd paru
@@ -15,8 +17,6 @@ cd paru
 makepkg -si
 
 cd
-
-paru
 
 packages=(
   devtools
