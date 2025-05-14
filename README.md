@@ -1,5 +1,5 @@
 # foosh  [bash version]
-Installs all my preferred packages and configurations.
+
 
 ## pre-installation
 Do not run the script as sudo/root! Only use sudo when the script itself prompts you to.
