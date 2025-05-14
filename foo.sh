@@ -100,9 +100,9 @@ sudo systemctl enable ly
 
 rm -rf .git
 
-rm -r graphite-gtk-theme
-
 rm -r foosh-bash
+
+rm -r graphite-gtk-theme
 
 rm LICENSE
 
