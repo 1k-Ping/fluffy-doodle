@@ -11,5 +11,5 @@ git clone https://github.com/1kping/foosh-bash ~/
 ```
 To run the script:
 ```sh
-~/foosh-bash/./foo.sh
+~/foosh-bash/foo.sh
 ```
