@@ -19,11 +19,9 @@ makepkg -si
 cd
 
 packages=(
-  devtools
   discord
   blender
   btop
-  debugedit
   eog
   fastfetch
   foot
@@ -81,8 +79,6 @@ paru -S amd-ucode
 paru -S nvidia
 
 paru -S nvidia-settings
-
-paru -S ollama-cuda
 
 xdg-settings set default-web-browser librewolf.desktop
 
