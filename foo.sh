@@ -8,7 +8,7 @@ cd
 
 sudo mv pacman.conf /etc
 
-sudo pacman -Syu
+sudo pacman -Syu git
 
 git clone https://aur.archlinux.org/paru.git
 
@@ -38,6 +38,7 @@ packages=(
   ly
   mako
   mpv
+  nvim
   nwg-look
   obs-studio
   pavucontrol
